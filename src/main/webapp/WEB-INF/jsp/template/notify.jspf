@@ -1,0 +1,3 @@
+
+    toastr["${message.msgType}"]("${message.message}", "Notification");
+

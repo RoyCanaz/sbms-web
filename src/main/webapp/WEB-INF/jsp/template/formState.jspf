@@ -1,0 +1,6 @@
+<form:hidden path="id"/>
+<form:hidden path="version"/>
+<c:if test="${not empty item.id}">
+    <form:hidden path="dateCreated"/>
+    <%--<form:hidden path="createdBy" value="${item.createdBy.id}"/>--%>
+</c:if>
